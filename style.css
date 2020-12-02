@@ -63,4 +63,6 @@ header {
     border-top-left-radius: 10px;
     width: 30%;
     margin: 0;
+    height: auto;
+    padding-bottom: 20px;
 }
