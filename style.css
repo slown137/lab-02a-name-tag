@@ -12,26 +12,27 @@ body, html {
 
 .outer {
     background-color: rgb(255, 255, 255);
-    height: 180px;
-    border: 30px outset rgb(206, 54, 54);
-    align-items: center;
-    margin: 0px 700px 0px 700px;
+    height: 200px;
+    border: 20px outset rgb(206, 54, 54);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     color: wheat;
     font-size: 120%;
+    width: 30%;
+    display: flex;
+    margin: 0;
 }
 
 .outer p {
-    text-align: center;
     color: rgb(224, 83, 83);
-    font-size: 400%;
-    margin: 2px;
+    font-size: 3em;
+    margin: auto;
     font-family: 'Merienda One', cursive;
-}
-
-header h2 {
     text-align: center;
+    
+}
+header h2 {
+ 
     color: wheat;
     text-shadow: -2px -2px 3px rgba(0,0,0,0.77);
     font-size: 300%;
@@ -39,10 +40,12 @@ header h2 {
     font-family: "Georgia";
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
+    margin: 0;
 }
 
 header .hello {
-    text-align: center;
+ 
     color: wheat;
     text-shadow: -2px -2px 3px rgba(0,0,0,0.77);
     font-size: 300%;
@@ -50,12 +53,14 @@ header .hello {
     font-family: "Georgia";
     margin-top: 30px;
     margin-bottom: 0;
+    text-align: center;
 }
 
 header {
     border: 1px solid rgb(206, 54, 54);
     background-color: rgb(206, 54, 54);
-    margin: 0px 700px 0px 700px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    width: 30%;
+    margin: 0;
 }
